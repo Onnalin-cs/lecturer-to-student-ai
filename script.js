@@ -1,7 +1,7 @@
 // ==========================================
 // 1. ตั้งค่า API Key และ Config
 // ==========================================
-const GEMINI_API_KEY = "AQ.Ab8RN6Jr0zmcqHmikIk_BUD7TkCfLO-FOXRuhhDCxicj-lgjiA";
+const GEMINI_API_KEY = "AQ.Ab8RN6Irh2enHkd3pum34j7bIEi00Qq2WsaAw7fVI6hverKXuA";
 const SUPABASE_URL = "https://nuuntbfzvgyyldjqegks.supabase.co";
 const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im51dW50YmZ6dmd5eWxkanFlZ2tzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEzNTIxNTAsImV4cCI6MjEwNjkyODE1MH0.Txia0Zzu48kWAQcPIejGo3R9LmJW4KomTybaWrBjiCA";
 
