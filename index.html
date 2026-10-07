@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts: Kanit -->
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <!-- Supabase JS SDK -->
+  <!-- Supabase JS Client -->
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <style> body { font-family: 'Kanit', sans-serif; } </style>
 </head>
@@ -25,7 +25,7 @@
         Lecturer-to-Student <span class="text-indigo-600">AI</span> 🎓
       </h1>
       <p class="text-slate-600 text-sm md:text-base max-w-lg mx-auto">
-        เปลี่ยนสไลด์อาจารย์ภาษาวิชาการ/ศัพท์ยากๆ ให้กลายเป็นเรื่องเข้าใจง่ายในภาษาเด็กมหาลัย[span_2](start_span)[span_2](end_span)
+        เปลี่ยนสไลด์อาจารย์ภาษาวิชาการ/ศัพท์ยากๆ ให้กลายเป็นเรื่องเข้าใจง่ายในภาษาเด็กมหาลัย
       </p>
     </header>
 
@@ -39,7 +39,7 @@
             <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
           </div>
           <div>
-            <p class="text-base font-semibold text-slate-700">แนบรูปภาพสไลด์ หรือชีทลายมืออาจารย์[span_3](start_span)[span_3](end_span)</p>
+            <p class="text-base font-semibold text-slate-700">แนบรูปภาพสไลด์ หรือชีทลายมืออาจารย์</p>
             <p class="text-xs text-slate-400 mt-1">คลิกเพื่อเลือกไฟล์ หรือลากวางรูปภาพที่นี่ (PNG, JPG, WEBP)</p>
           </div>
         </div>
@@ -64,12 +64,12 @@
     <!-- Result Display Cards -->
     <div id="resultCard" class="hidden space-y-5">
       <div class="bg-white rounded-2xl p-6 shadow-sm border-l-4 border-indigo-500 border-y border-r border-slate-100">
-        <h3 class="text-lg font-bold text-slate-800 mb-2">📌 สรุปใจความสำคัญ (3 บรรทัด)[span_4](start_span)[span_4](end_span)</h3>
+        <h3 class="text-lg font-bold text-slate-800 mb-2">📌 สรุปใจความสำคัญ (3 บรรทัด)</h3>
         <div id="summaryText" class="text-slate-700 whitespace-pre-line text-sm md:text-base bg-indigo-50/40 p-4 rounded-xl"></div>
       </div>
 
       <div class="bg-white rounded-2xl p-6 shadow-sm border-l-4 border-amber-500 border-y border-r border-slate-100">
-        <h3 class="text-lg font-bold text-slate-800 mb-2">💡 เปรียบเทียบกับชีวิตประจำวัน[span_5](start_span)[span_5](end_span)</h3>
+        <h3 class="text-lg font-bold text-slate-800 mb-2">💡 เปรียบเทียบกับชีวิตประจำวัน</h3>
         <div id="analogyText" class="text-slate-700 text-sm md:text-base bg-amber-50/40 p-4 rounded-xl"></div>
       </div>
 
@@ -79,15 +79,15 @@
       </div>
     </div>
 
-    <!-- Showcase Section สำหรับอาจารย์ตรวจงาน[span_6](start_span)[span_6](end_span) -->
+    <!-- Showcase Section -->
     <div class="mt-16 bg-slate-900 text-slate-300 rounded-3xl p-6 md:p-8 space-y-4">
       <div class="flex items-center justify-between border-b border-slate-800 pb-4">
-        <h4 class="text-white font-semibold text-base">⚙️ System Prompt & Architecture[span_7](start_span)[span_7](end_span)</h4>
-        <span class="text-xs bg-slate-800 text-slate-400 px-2.5 py-1 rounded-md">Project Info[span_8](start_span)[span_8](end_span)</span>
+        <h4 class="text-white font-semibold text-base">⚙️ System Prompt & Architecture</h4>
+        <span class="text-xs bg-slate-800 text-slate-400 px-2.5 py-1 rounded-md">Project Info</span>
       </div>
       <div class="bg-slate-950 p-4 rounded-xl font-mono text-xs text-emerald-400 overflow-x-auto border border-slate-800">
-        <p class="text-slate-500">// System Prompt ที่ใช้ควบคุม AI[span_9](start_span)[span_9](end_span)</p>
-        <p>คุณคือ AI ช่วยแปลชีทเรียนวิชาการยากๆ ให้กลายเป็นภาษาเพื่อนเด็กมหาลัย[span_10](start_span)[span_10](end_span)</p>
+        <p class="text-slate-500">// System Prompt ที่ใช้ควบคุม AI</p>
+        <p>คุณคือ AI ช่วยแปลชีทเรียนวิชาการยากๆ ให้กลายเป็นภาษาเพื่อนเด็กมหาลัย</p>
         <p>ตอบกลับเป็น JSON เท่านั้น: { "summary": "...", "analogy": "...", "vocab": "..." }</p>
       </div>
     </div>
